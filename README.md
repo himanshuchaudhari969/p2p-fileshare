@@ -2,10 +2,10 @@
 
 A lightweight, decentralized peer-to-peer file sharing web application built with React, Node.js, WebRTC, and Socket.io.
 
-## 🚀 Live Demo
+# Live Demo
 [https://p2p-fileshare-jet.vercel.app](https://p2p-fileshare-jet.vercel.app)
 
-## 📌 Features
+# Features
 - Direct browser-to-browser file transfer using WebRTC
 - No file data passes through the server
 - Real-time progress bar and transfer status
@@ -20,7 +20,7 @@ A lightweight, decentralized peer-to-peer file sharing web application built wit
 - Real-time transfer speed (MB/s)
 - Live connection status indicator
 
-## 🛠️ Tech Stack
+# Tech Stack
 | Layer | Technology |
 |---|---|
 | Frontend | React.js, Vite |
@@ -29,16 +29,16 @@ A lightweight, decentralized peer-to-peer file sharing web application built wit
 | Frontend Hosting | Vercel |
 | Backend Hosting | Render |
 
-## ⚙️ How It Works
+# How It Works
 1. Sender creates a Room and gets a unique Room ID
 2. Receiver joins using the Room ID
 3. Signaling server connects both peers via WebRTC handshake
 4. File is transferred directly browser-to-browser
 5. Receiver gets auto-download when transfer completes
 
-## 🏃 Run Locally
+# Run Locally
 
-### Backend
+# Backend
 ```bash
 cd server
 npm install
@@ -52,7 +52,7 @@ npm install
 npm run dev
 ```
 
-## 📁 Project Structure
+##  Project Structure
 ```
 p2p-fileshare/
 ├── client/          # React frontend
