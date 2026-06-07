@@ -15,6 +15,10 @@ A lightweight, decentralized peer-to-peer file sharing web application built wit
 - Auto-download on receiver side
 - Original filename preserved on download
 - SHA-256 inspired chunk-based transfer
+- Drag & drop file upload
+- SHA-256 hash verification (zero data corruption)
+- Real-time transfer speed (MB/s)
+- Live connection status indicator
 
 ## 🛠️ Tech Stack
 | Layer | Technology |
